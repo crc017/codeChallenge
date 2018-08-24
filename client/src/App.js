@@ -94,11 +94,7 @@ class App extends Component {
           onAddChild={(factoryId) => this.runCreateChild(factoryId)}
           onDeleteFactory={(factoryId) => this.runDeleteFactory(factoryId)}
           />
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>{this.state.info.code}</p>
-        <p>{this.state.info.status}</p>
+          <p>by Ryan Cox</p>
         {console.log("term:", this.state.term)}
       </div>
     );
